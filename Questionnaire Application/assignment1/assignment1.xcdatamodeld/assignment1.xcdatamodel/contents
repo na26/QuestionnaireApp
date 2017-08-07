@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MultiOption" representedClassName=".MultiOption" syncable="YES">
+        <attribute name="option1" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="option2" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="option3" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="option4" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="NumericOption" representedClassName=".NumericOption" syncable="YES">
+        <attribute name="choice" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="SingleOption" representedClassName=".SingleOption" syncable="YES">
+        <attribute name="choice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="TextOption" representedClassName=".TextOption" syncable="YES">
+        <attribute name="choice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NumericOption" positionX="-54" positionY="27" width="128" height="75"/>
+        <element name="TextOption" positionX="-36" positionY="36" width="128" height="75"/>
+        <element name="MultiOption" positionX="0" positionY="72" width="128" height="120"/>
+        <element name="SingleOption" positionX="-63" positionY="-18" width="128" height="75"/>
+    </elements>
+</model>
